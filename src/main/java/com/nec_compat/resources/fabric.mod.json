@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "nec_compat",
+	"version": "${version}",
+	"name": "nec_compat",
+	"description": "A simple mod let some mods compat with Not Enough Crashes",
+	"authors": [],
+	"contact": {
+		"homepage": "https://fabricmc.net/"
+	},
+	"license": "MIT",
+	"icon": "assets/nec_compat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.nec_compat.fabric.Nec_compat_fabric_entry"
+		]
+	},
+	"mixins": [
+		"nec_compat.common.mixins.json",
+		"nec_compat.fabric.mixins.json"
+	],
+	"depends": {
+		"minecraft": ">=26.1",
+		"java": ">=25"
+	}
+}
