@@ -1,0 +1,11 @@
+{
+	"required": false,
+	"package": "com.nec_compat.fabric.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [],
+	"mixins": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
