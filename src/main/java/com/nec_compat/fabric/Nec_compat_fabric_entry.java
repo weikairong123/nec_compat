@@ -7,7 +7,7 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Nec_compat implements ModInitializer {
+public class Nec_compat_fabric_entry implements ModInitializer {
 	public static final String MOD_ID = "nec_compat";
 
 	// This logger is used to write text to the console and the log file.
