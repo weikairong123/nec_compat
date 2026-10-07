@@ -23,7 +23,7 @@ dependencies {
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
-    implementation "xaero.betterpvp:xaerobetterpvp-fabric:26.1.2-25.3.10"
+    implementation "xaero.pvp:xaerobetterpvp-fabric-26.1.2:25.3.10"
 }
 
 processResources {
