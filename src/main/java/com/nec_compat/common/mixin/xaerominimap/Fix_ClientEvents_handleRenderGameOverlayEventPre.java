@@ -12,7 +12,7 @@ package com.nec_compat.common.mixin.xaerominimap;
 
  // remap=false：xaero是未映射knot混淆类，不能开启自动重映射
  @Mixin(value = xaero.common.events.ClientEvents.class, remap = false)
- public abstract class MixinXaeroClientEvents {
+ public abstract class Fix_ClientEvents_handleRenderGameOverlayEventPre {
      // 在handleRenderGameOverlayEventPre整个方法最开头注入
      @Inject(method = "handleRenderGameOverlayEventPre", at = @At("HEAD"), cancellable = true)
      private void fixNecLoopCrash(CallbackInfo ci) {
