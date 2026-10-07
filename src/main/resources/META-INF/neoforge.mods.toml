@@ -1,0 +1,19 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="MIT"
+showAsResourcePack=false
+
+[[mods]]
+modId="nec_compat"
+version="1.0.0"
+displayName="nec_compat"
+authors=""
+description='''
+A simple mod let some mods compat with Not Enough Crashes
+'''
+
+[[mixins]]
+config="nec_compat.common.mixins.json"
+
+[[mixins]]
+config="nec_compat.neoforge.mixins.json"
